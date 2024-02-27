@@ -1,3 +1,9 @@
+
+- Local testing is possible using json-server and  /products/productsData.json
+- 
+
+
+# ** DEFAULT VITE TEXT BELLOW *** 
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
