@@ -1,0 +1,5 @@
+.product-list {
+  background-color: lightgray;
+  display: 'flex';
+  flexWrap: 'wrap'
+}

@@ -21,12 +21,15 @@ public static class ProductDataService
         Stock = 10,
         Brand = "Brand 1",
         Category = "Category 1",
-        Thumbnail = new Uri("https://via.placeholder.com/150"),
+        Thumbnail = new Uri("https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"),
         Images = new Uri[] {
-          new Uri("https://via.placeholder.com/150"),
-          new Uri("https://via.placeholder.com/150"),
-          new Uri("https://via.placeholder.com/150")
+          new Uri("https://cdn.dummyjson.com/product-images/1/1.jpg"),
+          new Uri("https://cdn.dummyjson.com/product-images/1/2.jpg"),
+          new Uri("https://cdn.dummyjson.com/product-images/1/3.jpg"),
+          new Uri("https://cdn.dummyjson.com/product-images/1/4.jpg"),
+          new Uri("https://cdn.dummyjson.com/product-images/1/thumbnail.jpg")
         }
+        
       },
       new Product() {
         Id = 2,
@@ -38,11 +41,12 @@ public static class ProductDataService
         Stock = 10,
         Brand = "Brand 2",
         Category = "Category 2",
-        Thumbnail = new Uri("https://via.placeholder.com/150"),
+        Thumbnail = new Uri("https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"),
         Images = new Uri[] {
-          new Uri("https://via.placeholder.com/150"),
-          new Uri("https://via.placeholder.com/150"),
-          new Uri("https://via.placeholder.com/150")
+          new Uri("https://cdn.dummyjson.com/product-images/2/1.jpg"),
+          new Uri("https://cdn.dummyjson.com/product-images/2/2.jpg"),
+          new Uri("https://cdn.dummyjson.com/product-images/2/3.jpg"),
+          new Uri("https://cdn.dummyjson.com/product-images/2/thumbnail.jpg")
         }
       }
     };
@@ -50,3 +54,4 @@ public static class ProductDataService
 
   public static ProductsResponse GetAll() => new ProductsResponse{ Products=ProductsList} ;
 }
+
