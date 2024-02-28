@@ -5,7 +5,7 @@ const getAll = async () => {
   try {
     const res: AxiosResponse = await http.get('/');
     console.log("axios call: ", res);
-    return res.data;
+    return res.data.products;
     // return http.get('/');
   } catch (err) {
     console.log("err: ", err);;

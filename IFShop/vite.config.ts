@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/products': {
-        target: 'http://localhost:5000',
+        target: 'http://localhost:5022',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/products/, ''),
         secure: false,
