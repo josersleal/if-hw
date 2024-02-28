@@ -1,8 +1,5 @@
 @IfShopApi_HostAddress = http://localhost:5022
 
-GET {{IfShopApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
 ###
 
 GET  {{IfShopApi_HostAddress}}/products/
