@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "yezyDGfQhM4i3f0/hH1oFjEXyfPt/BxcPURpjHdRloJErt59jMTh6A4JkO76dA8Kglfn5V2k6b4JtJMqhDPzdg==",
+  "dgSpecHash": "RXJX2wyfAsqBXUUUZMbUw6HuPxpuO/+a0U0kat09qTDigOOHgPOw8muF0zj7AeBpd4qpmGtCPbQB31pORO056w==",
   "success": true,
   "projectFilePath": "/home/joseleal/Projects/job/IF/if-hw/api/src/IfShopApi/IfShopApi.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/root/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/root/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/root/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/root/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/root/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

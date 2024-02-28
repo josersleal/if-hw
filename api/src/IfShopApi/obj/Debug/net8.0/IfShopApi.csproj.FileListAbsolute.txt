@@ -31,3 +31,4 @@
 /home/joseleal/Projects/job/IF/if-hw/api/src/IfShopApi/obj/Debug/net8.0/IfShopApi.pdb
 /home/joseleal/Projects/job/IF/if-hw/api/src/IfShopApi/obj/Debug/net8.0/IfShopApi.genruntimeconfig.cache
 /home/joseleal/Projects/job/IF/if-hw/api/src/IfShopApi/obj/Debug/net8.0/ref/IfShopApi.dll
+/home/joseleal/Projects/job/IF/if-hw/api/src/IfShopApi/bin/Debug/net8.0/Newtonsoft.Json.dll

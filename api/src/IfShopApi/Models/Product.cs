@@ -29,7 +29,15 @@ namespace IfShopApi.Models
 
     public Uri[] Images { get; set; }
   }
+  public class ProductList
+  {
+    public Product[] Products { get; set; }
 
- 
+        public static implicit operator ProductList(List<Product> v)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
 }
 
