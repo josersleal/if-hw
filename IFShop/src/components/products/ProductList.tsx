@@ -4,7 +4,6 @@ import { CardGroup, Container, FormControl, InputGroup } from 'react-bootstrap'
 import './ProductList.css';
 import ProductCard from './ProductCard';
 
-// function ProductList({ products }: { products: ProductModel[] }) {
 interface ProductsListProps { products: ProductModel[] };
 
 const ProductList: React.FC<ProductsListProps> = ({ products }: ProductsListProps) => {

@@ -12,8 +12,6 @@ builder.Services.AddSwaggerGen();
 // define a unique string
 string AllowSpecificOrigins = "allowSpecificOrigins";
 
-// define allowed domains, in this case "http://example.com" and "*" = all
-//    domains, for testing purposes only.
 builder.Services.AddCors(options =>
 {
   options.AddPolicy(name: AllowSpecificOrigins,
@@ -25,7 +23,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddTransient<IProductDataService, ProductDataService>();
-// TODO: change to scoped and maybe to refer to interface, get name, url and timeout from config.
+
 builder.Services.AddHttpClient("DummyJsonApi", client => {
   client.BaseAddress = new Uri("https://dummyjson.com/");
   client.Timeout = TimeSpan.FromSeconds(30);
